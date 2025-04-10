@@ -1,0 +1,23 @@
+\babel@toc {italian}{}\relax 
+\babel@toc {italian}{}\relax 
+\contentsline {chapter}{\numberline {1}Fondamenti di Elettromagnetismo}{9}{}%
+\contentsline {section}{\numberline {1.1}Le leggi di Maxwell}{9}{}%
+\contentsline {subsection}{\numberline {1.1.1}Equazioni di Maxwell in forma differenziale}{9}{}%
+\contentsline {subsection}{\numberline {1.1.2}Quante informazioni servono affinché si trovi una soluzione?}{10}{}%
+\contentsline {subsection}{\numberline {1.1.3}Equazioni di Maxwell in forma integrale}{11}{}%
+\contentsline {section}{\numberline {1.2}Equazioni di raccordo}{19}{}%
+\contentsline {subsection}{\numberline {1.2.1}Quarta e terza legge di Maxwell}{19}{}%
+\contentsline {subsection}{\numberline {1.2.2}Seconda e prima legge di Maxwell}{23}{}%
+\contentsline {section}{\numberline {1.3}L'equazione di continuità}{26}{}%
+\contentsline {section}{\numberline {1.4}Le relazioni costitutive}{27}{}%
+\contentsline {subsection}{\numberline {1.4.1}Linearità}{28}{}%
+\contentsline {subsection}{\numberline {1.4.2}Non dispersività}{29}{}%
+\contentsline {subsection}{\numberline {1.4.3}Omogeneità}{29}{}%
+\contentsline {subsection}{\numberline {1.4.4}Richiami sulle trasformate di Fourier}{31}{}%
+\contentsline {subsection}{\numberline {1.4.5}Isotropia}{34}{}%
+\contentsline {subsection}{\numberline {1.4.6}I mezzi normali e le relazioni nel dominio della frequenza}{37}{}%
+\contentsline {section}{\numberline {1.5}Teoremi di unicità}{38}{}%
+\contentsline {subsection}{\numberline {1.5.1}Problema tempo interiore}{38}{}%
+\contentsline {subsection}{\numberline {1.5.2}Problema tempo-esteriore}{43}{}%
+\contentsline {subsection}{\numberline {1.5.3}Problema omega-interiore}{43}{}%
+\contentsline {subsection}{\numberline {1.5.4}Problema omega-esteriore}{47}{}%
