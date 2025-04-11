@@ -1216,7 +1216,119 @@ In tal caso la soluzione non è unica e l'unico costringente che si ha è l'ugua
         \lim_{\underline{r} \to \infty} \underline{r}(\underline{E}-\zeta \underline{H} \times \underline{i}_{r}) = 0
     \end{equation}
     detta \textbf{condizione di radiazione all'infinito} oppure di \textbf{Silver-M{\"u}ller}. La tesi, che non dimostriamo, afferma che sotto tale ipotesi la soluzione se esiste è unica e non possono esserci soluzioni risonanti. Intuitivamente\footnote{l'espressione che segue è da considerarsi una chiacchiera da bar, non pretende di essere formale} questa cosa è associata al fatto che la radiazione propagandosi all'infinito senza tornare indietro si porti appresso dell'energia, la quale viene sottratta al sistema fino ad esaurirsi.
-
+\section{Il teorema di Poynting}
+    \subsection{Energia legata al campo elettromagnetico}
+        Il primo principio della termodinamica afferma che la variazione dell'energia interna $U$
+        di un sistema fisico varia in accordo agli scambi energetici del sistema con l'esterno.
+        In altre parole, la variazione di energia interna è pari alla variazione di calore $\delta Q$ e lavoro $\delta L$:
+        \begin{equation}
+            \label{eqn:primo_principio_termodinamica}
+            d U = \delta Q+\delta L
+        \end{equation}
+    \subsection{Teorema di Poynting nel dominio del tempo}
+        Fatta l'ipotesi di mezzo normale non dispersivo nel tempo, vale la già discussa identità di Poynting in forma integrale:
+        \begin{equation}
+            \label{eqn:Poynting_integrale_tempo}
+            \oiint_{\partial V} \underline{s} \cdot \underline{i}_{n}dS+\frac{d}{dt}\iiint_{V}(\frac{\mu}{2}|\underline{h}|^{2}+\frac{\varepsilon}{2}|\underline{e}|^{2})dV +
+            \iiint_{V}\sigma |\underline{e}|^{2}dV = - \iiint_{V} \underline{e}\cdot \underline{j}_{0}dV
+        \end{equation}
+        L'obiettivo di questa sottosezione è ricostruire l'identità di Poynting in modo analogo alla (\ref{eqn:primo_principio_termodinamica}), per associare ad ogni pezzo della
+        (\ref{eqn:Poynting_integrale_tempo}) il suo significato fisico. \\
+        Partiamo dall'espressione della forza di Lorentz esercitata su di una carica $q$:
+        \begin{equation}
+            \underline{F}= q \underline{e}+\rho \underline{r} \times \underline{b}
+        \end{equation}
+        La forza di Lorentz è un approccio macroscopico al problema della forza esercitata su di una carica immersa in un campo elettromagnetico, perché compare la densità di carica
+        elettrica $\rho$, dunque le cariche vengono immaginate come un continuo nello spazio. Consideriamo allora un volumetto $\Delta V$ con all'interno carica $\Delta q$.
+        Calcolando la forza di Lorentz esercitata su tale volumetto di carica:
+        \begin{equation}
+            \Delta \underline{F} = \Delta q\underline{e}+\Delta \rho \underline{r}\times \underline{b}
+        \end{equation}
+        Passiamo alla densità di forza, (misurata in $N/m^{3}$) dividendo per $\Delta V$ e facendo il limite per $\Delta V \to 0$:
+        \begin{equation}
+            \label{eqn:densitàForza}
+            \lim_{\Delta V \to \infty} \frac{\Delta \underline{F}}{\Delta V} = \underline{f}(\underline{r},t) = \rho(\underline{r},t)\underline{e}(\underline{r},t)+\rho(\underline{r},t)\underline{v}\times \underline{b}(\underline{r},t)
+        \end{equation}
+        Il primo addendo della (\ref{eqn:densitàForza}) deriva direttamente della definizione di densità di carica, semplicemente il limite del rapporto $\Delta q/\Delta V$.
+        Per capire che significato abbia il secondo addendo, consideriamo una superficie con piana orientata lungo l'asse $x$, cioè con $\underline{i}_{n} = \underline{i}_{x}$:
+        \begin{figure}[h!]
+            \includegraphics[width=0.6\linewidth]{img/Chapter_one/Chapt1img9.png}
+        \end{figure}
+        Tale superficie è attraversata con vettore velocità $\underline{v}$ da una certa carica $\Delta q$ nell'intervallo $[t, t+\Delta t]$.
+        Dunque la carica totale che attraversa la porzione dello spazio evidenziata in blu è data da
+        \footnote{Rigorosamente bisognerebbe integrare nel tempo e nello spazio, ma per semplificare lo scriviamo come prodotto delle quantità infinitesime $\Delta \Sigma_{x}$ e $\Delta t$}:
+        \begin{equation}
+            \Delta q = \rho \Delta \Sigma_{x}v_{x}\Delta t
+        \end{equation}
+        dove $v_{x} = \underline{v} \cdot \underline{i}_{x}$ è la proiezione di $\underline{v}$ sull'asse $\underline{x}$. Per ottenere la componente lungo $x$ della densità di corrente dividiamo per $\Delta \Sigma_{x}\Delta t$:
+        \begin{equation}
+                j_{x}=\frac{\Delta q}{\Delta \Sigma_{x}\delta t} = \frac{\rho \Delta v_{x}\Delta \Sigma_{x}\Delta t}{\Delta \Sigma_{x}\Delta t}=\rho v_{x}
+        \end{equation}
+        Dunque la densità di corrente è legata alla velocità delle cariche tramite la densità di carica, relazione che non stupisce se si tiene conto che $\rho$ da informazioni circa la posizione delle cariche nello spazio.
+        Il discorso è analogo per $j_{y}$ e $j_{z}$. Sostituendo nella (\ref{eqn:densitàForza}) si ottiene:
+        \begin{equation}
+            \underline{f}(\underline{r},t)=\rho(\underline{r},t)\underline{e}(\underline{r},t)+\underline{j}(\underline{r},t)\times \underline{b}(\underline{r},t)
+        \end{equation}
+        Moltiplicando per la velocità, si ottiene la potenza per unità di volume\footnote{Infatti se il lavoro è $W=\underline{F} \cdot \underline{s}$, la potenza sarà $P= \frac{d}{dt}(\underline{F}\cdot \underline{s})=\underline{F}\cdot \underline{v}$}:
+        \begin{equation}
+            \label{eqn:densità_potenza_erogata}
+            \underline{f} \cdot \underline{v} = \rho \underline{e} \cdot \underline{v}+\underline{j}\times \underline{b}\cdot \underline{v} = 
+            \rho \underline{e} \cdot \underline{v}+\rho \underline{v}\times \underline{b}\cdot \underline{v} = \rho \underline{e} \cdot \underline{v} = \underline{e} \cdot \underline{j}
+        \end{equation}
+        Abbiamo annullato il secondo termine perché compare un prodotto misto con due vettori paralleli, in questo caso $\underline{j}$ e $\underline{v}$.
+        Dalla (\ref{eqn:densità_potenza_erogata}) ricaviamo il significato di:
+        \begin{equation}
+            \label{eqn:da_campo_a_impresse}
+            \iiint_{V} \underline{e} \cdot \underline{j}_{0}
+        \end{equation}
+        che è la potenza\footnote{ottenuta tramite una densità di potenza integrata nello spazio} erogata dal campo elettromagnetico alle sorgenti impresse, rappresentate da $\underline{j}_{0}$.
+        Poiché però nell'identità di Poynting la (\ref{eqn:da_campo_a_impresse}) compare con un meno davanti, il tutto rappresenta la potenza fornita dalle sorgenti impresse al campo elettromagnetico.
+        \\ In maniera analoga, la quantità:
+        \begin{equation}
+            \iiint_{V} \underline{e} \cdot \underline{j} = \iiint_{V} \sigma |\underline{e}|^{2}dVV
+        \end{equation}
+        è la quantità di potenza che il campo fornisce alle sorgenti indotte, cioè quanta potenza questo spende per tenere in vita tali sorgenti. Notiamo che
+        per come è definita, questa quantità è non negativa, perché:
+        \begin{equation}
+            \label{eqn:equazione_che_mi_serve}
+            \begin{cases}
+                \underline{j} = \sigma \underline{e} \\
+                \underline{j}=\rho \underline{v}
+            \end{cases} \implies \rho \underline{v} = \sigma \underline{e}
+        \end{equation}
+        da cui si ricava $\sigma \geq 0$, perché se le cariche sono positive devono avere lo stesso verso del campo elettrico e viceversa. \\
+        La quantità $\sigma |\underline{e}|^{2}$ è responsabile della forza, ma dalla (\ref{eqn:equazione_che_mi_serve}) risulta che se tale termine è costante si ha velocità costante,
+        contrariamente all'aspettativa che questa debba aumentare. Questa relazione però ha pieno senso fisico, perché il campo deve erogare una potenza costante per sostenere
+        le sorgenti indotte, che dissipano potenza in calore tramite gli urti con le vibrazioni reticolari. Nel nostro caso, l'energia fornite alle indotte e non negativa, cioè il 
+        trasferimento di potenza è unidirezionale dal campo verso le indotte, ragion per la quale si può parlare di \textbf{potenza dissipata per effetto Joule}:
+        \begin{equation}
+            P_{J} = \iiint_{V} \sigma |\underline{e}|^{2}dV
+        \end{equation}
+        \\ \\
+        Concentriamoci ora sul primo pezzo del membro di sinistra dell'identità di Poynting, ignorando per ora il significato del vettore di Poynting. Riportiamo l'identità:
+        \begin{equation}
+            \frac{d}{dt} \iiint_{V} \frac{\mu}{2}|\underline{h}|^{2}+\frac{\varepsilon}{2}|\underline{e}|^{2}dV+\iiint_{V} + \iiint_{V} \sigma |\underline{e}|^{2}dV = - \iiint_{V}\underline{e}\cdot \underline{j}dV
+        \end{equation}
+        Moltiplichiamo ambo membri per $dt$:
+        \begin{equation}
+            d \iiint_{V} \frac{\mu}{2}|\underline{h}|^{2}+\frac{\varepsilon}{2}|\underline{e}|^{2}dV+\iiint_{V} + dt\iiint_{V} \sigma |\underline{e}|^{2}dV = -dt \iiint_{V}\underline{e}\cdot \underline{j}dV
+        \end{equation}
+        Le potenze trasferite alle indotte e alle impresse, moltiplicate per $dt$, assumono le dimensioni di un energia, dunque il termine:
+        \begin{equation}
+            dW(t) = d \iiint_{V} \frac{\mu}{2}|\underline{h}|^{2}+\frac{\varepsilon}{2}|\underline{e}|^{2}dV = \iiint_{V} w_{m}+w_{e} dV
+        \end{equation}
+        non è altro che la variazione di energia del campo elettromagnetico $dW(t)$, con $w_{e} = \frac{\varepsilon}{2}|\underline{e}|^{2}$ 
+        e $w_{m}=\frac{\mu}{2}|\underline{h}|^{2}$ rispettivamente la densità di energia elettrica e magnetica. Da questa relazione ricaviamo $\varepsilon>0$ e 
+        $\mu >0$, perché se per assurdo fossero negative avremmo energia gratis, in quanto per una variazione negativa dell'energia interna l'ambiente avrebbe fornito calore. Allo stesso modo
+        non possono essere nulle, perché per variazione nulla di energia intera il sistema avrebbe fornito calore. Posto $w_{em}= w_{e}+w_{m}$, ci si rende conto 
+        che l'energia elettromagnetica $W(t)$ è proprio il termine $U$ riportato nel primo principio della termodinamica, -$\delta Q$ è il calore dissipato per effetto Joule\footnote{dove c'è un meno per via del fatto che si trova a primo membro e non a secondo}
+        e $\delta L$ il lavoro fornito al sistema tramite le sorgenti impresse :
+        \begin{equation}
+                dU(t) = dW(t) = dt\iiint_{V} w(t)dV \qquad -\delta Q =P_{J}   \qquad \delta L = - \iiint_{V} \underline{e} \cdot \underline{j}_{0}dV
+        \end{equation}
+        \begin{equation}
+            \implies dU-\delta Q = \delta L \implies dU = \delta Q + \delta L
+        \end{equation}
 \chapter*{Appendice A - Note di carattere matematico}
     \section*{Vettori complessi}
         Negli spazi vettoriali definiti su $\mathbb{R}$, è definito il prodotto scalare $(\underline{a}|\underline{b})$ fra $\underline{a}$ e $\underline{b}$ in modo da rispettare le seguenti proprietà:

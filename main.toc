@@ -21,3 +21,6 @@
 \contentsline {subsection}{\numberline {1.5.2}Problema tempo-esteriore}{43}{}%
 \contentsline {subsection}{\numberline {1.5.3}Problema omega-interiore}{43}{}%
 \contentsline {subsection}{\numberline {1.5.4}Problema omega-esteriore}{47}{}%
+\contentsline {section}{\numberline {1.6}Il teorema di Poynting}{47}{}%
+\contentsline {subsection}{\numberline {1.6.1}Energia legata al campo elettromagnetico}{47}{}%
+\contentsline {subsection}{\numberline {1.6.2}Teorema di Poynting nel dominio del tempo}{48}{}%
