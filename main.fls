@@ -478,6 +478,11 @@ INPUT ./img//Chapter_one/Chapt1img8.png
 INPUT img//Chapter_one/Chapt1img8.png
 INPUT ./img//Chapter_one/Chapt1img8.png
 INPUT ./img//Chapter_one/Chapt1img8.png
+INPUT ./img/Chapter_one/Chapt1img9.png
+INPUT ./img/Chapter_one/Chapt1img9.png
+INPUT img/Chapter_one/Chapt1img9.png
+INPUT ./img/Chapter_one/Chapt1img9.png
+INPUT ./img/Chapter_one/Chapt1img9.png
 INPUT main.aux
 INPUT /usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb

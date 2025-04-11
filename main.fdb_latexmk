@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1744286781 "/home/marcadell/Documenti/AppuntiLaTeX_Local/Campi_Elettromagnetici/main.tex" "main.pdf" "main" 1744286781
+["pdflatex"] 1744388931 "/home/marcadell/Documenti/AppuntiLaTeX_Local/Campi_Elettromagnetici/main.tex" "main.pdf" "main" 1744388932
   "/etc/texmf/web2c/texmf.cnf" 1744273348 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/marcadell/Documenti/AppuntiLaTeX_Local/Campi_Elettromagnetici/main.tex" 1744265394 114455 471fc9a7f1017dec8fd645103f4350ee ""
+  "/home/marcadell/Documenti/AppuntiLaTeX_Local/Campi_Elettromagnetici/main.tex" 1744388931 124672 86543fa6f8a83596af34a2c50ad10f2f ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/pxfonts/pcxr.tfm" 1136768653 1500 0e656ea8eb79997feb10bea27ed72329 ""
@@ -99,9 +99,10 @@
   "img//Chapter_one/chaptOneManoDestra.png" 1744265394 5856 716e8e8176d978aad5f2384073930bd8 ""
   "img//Chapter_one/chaptOneMatricione.png" 1744265396 47518 08f3e1fb889c8cf99da0155274711bc9 ""
   "img/Chapter_one/Chapt1img1.png" 1744265394 1139545 6f0cd10179aa41529ad3f6a812fd3831 ""
-  "main.aux" 1744286781 4783 9df4c48f7f1c21b9389aa9d0fb6c4a94 "pdflatex"
-  "main.tex" 1744265394 114455 471fc9a7f1017dec8fd645103f4350ee ""
-  "main.toc" 1744286781 1764 ad6da54fc73021e09254a1d1d4f58fe6 "pdflatex"
+  "img/Chapter_one/Chapt1img9.png" 1744385878 57985 eebcd2c6575ca1f78004ce3c1f671aa0 ""
+  "main.aux" 1744388931 5474 88beba595d2e943a2f48b9d4ebb818ce "pdflatex"
+  "main.tex" 1744388931 124672 86543fa6f8a83596af34a2c50ad10f2f ""
+  "main.toc" 1744388931 2027 3a075253dd11938b780ea9c9f5811fa6 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
