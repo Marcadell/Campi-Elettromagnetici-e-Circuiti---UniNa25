@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.10)  11 APR 2025 18:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.4.10)  11 APR 2025 18:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -324,17 +324,17 @@ File: ts1pxr.fd 2000/12/14 v1.0
 LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <10> not available
 (Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 31.
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 31--33
+Underfull \hbox (badness 10000) in paragraph at lines 31--35
 
  []
 
@@ -349,36 +349,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--33
 ]
 Capitolo 1.
 LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <20.74> not available
-(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 35.
-LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <12> not available
 (Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 37.
+LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <12> not available
+(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 39.
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+Underfull \hbox (badness 10000) in paragraph at lines 56--58
 
  []
 
 <img/Chapter_one/Chapt1img1.png, id=40, 963.6pt x 616.55344pt>
 File: img/Chapter_one/Chapt1img1.png Graphic file (type png)
 <use img/Chapter_one/Chapt1img1.png>
-Package pdftex.def Info: img/Chapter_one/Chapt1img1.png  used on input line 62.
+Package pdftex.def Info: img/Chapter_one/Chapt1img1.png  used on input line 64.
 (pdftex.def)             Requested size: 172.5pt x 110.37273pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
@@ -386,38 +386,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--69
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--83
+Underfull \hbox (badness 10000) in paragraph at lines 78--85
 
  []
 
 [11 <./img/Chapter_one/Chapt1img1.png (PNG copy)>] [12]
-Underfull \hbox (badness 10000) in paragraph at lines 115--118
+Underfull \hbox (badness 10000) in paragraph at lines 117--120
 
  []
 
 <img//Chapter_one/Chapt1img2.png, id=52, 736.7525pt x 412.54124pt>
 File: img//Chapter_one/Chapt1img2.png Graphic file (type png)
 <use img//Chapter_one/Chapt1img2.png>
-Package pdftex.def Info: img//Chapter_one/Chapt1img2.png  used on input line 134.
+Package pdftex.def Info: img//Chapter_one/Chapt1img2.png  used on input line 136.
 (pdftex.def)             Requested size: 258.75pt x 144.8826pt.
 [13] [14 <./img//Chapter_one/Chapt1img2.png>]
 <img//Chapter_one/chap1img3.png, id=62, 963.6pt x 612.03656pt>
 File: img//Chapter_one/chap1img3.png Graphic file (type png)
 <use img//Chapter_one/chap1img3.png>
-Package pdftex.def Info: img//Chapter_one/chap1img3.png  used on input line 167.
+Package pdftex.def Info: img//Chapter_one/chap1img3.png  used on input line 169.
 (pdftex.def)             Requested size: 258.75pt x 164.3462pt.
  [15 <./img//Chapter_one/chap1img3.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 203--206
+Underfull \hbox (badness 10000) in paragraph at lines 205--208
 
  []
 
@@ -425,21 +425,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--206
 <img//Chapter_one/Chapt1img4age.png, id=69, 963.6pt x 768.62157pt>
 File: img//Chapter_one/Chapt1img4age.png Graphic file (type png)
 <use img//Chapter_one/Chapt1img4age.png>
-Package pdftex.def Info: img//Chapter_one/Chapt1img4age.png  used on input line 213.
+Package pdftex.def Info: img//Chapter_one/Chapt1img4age.png  used on input line 215.
 (pdftex.def)             Requested size: 120.7521pt x 96.31201pt.
  [17 <./img//Chapter_one/Chapt1img4age.png (PNG copy)>] [18]
 <img//Chapter_one/Chapt1img5.png, id=76, 963.6pt x 844.65562pt>
 File: img//Chapter_one/Chapt1img5.png Graphic file (type png)
 <use img//Chapter_one/Chapt1img5.png>
-Package pdftex.def Info: img//Chapter_one/Chapt1img5.png  used on input line 268.
+Package pdftex.def Info: img//Chapter_one/Chapt1img5.png  used on input line 270.
 (pdftex.def)             Requested size: 172.5pt x 151.20659pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 265--273
+Underfull \hbox (badness 10000) in paragraph at lines 267--275
 
  []
 
 [19 <./img//Chapter_one/Chapt1img5.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 298--302
+Underfull \hbox (badness 10000) in paragraph at lines 300--304
 
  []
 
@@ -447,63 +447,63 @@ Underfull \hbox (badness 10000) in paragraph at lines 298--302
 <img//Chapter_one/chapt1img6.png, id=84, 963.6pt x 841.64438pt>
 File: img//Chapter_one/chapt1img6.png Graphic file (type png)
 <use img//Chapter_one/chapt1img6.png>
-Package pdftex.def Info: img//Chapter_one/chapt1img6.png  used on input line 316.
+Package pdftex.def Info: img//Chapter_one/chapt1img6.png  used on input line 318.
 (pdftex.def)             Requested size: 172.5pt x 150.66753pt.
 <chapt1img7.png, id=85, 963.6pt x 427.5975pt>
 File: chapt1img7.png Graphic file (type png)
 <use chapt1img7.png>
-Package pdftex.def Info: chapt1img7.png  used on input line 326.
+Package pdftex.def Info: chapt1img7.png  used on input line 328.
 (pdftex.def)             Requested size: 124.20021pt x 55.11333pt.
  [21 <./img//Chapter_one/chapt1img6.png (PNG copy)> <./chapt1img7.png (PNG copy)>] [22]
 <img//Chapter_one/chapt1img5age.png, id=92, 963.6pt x 551.05875pt>
 File: img//Chapter_one/chapt1img5age.png Graphic file (type png)
 <use img//Chapter_one/chapt1img5age.png>
-Package pdftex.def Info: img//Chapter_one/chapt1img5age.png  used on input line 355.
+Package pdftex.def Info: img//Chapter_one/chapt1img5age.png  used on input line 357.
 (pdftex.def)             Requested size: 258.75pt x 147.97221pt.
  [23 <./img//Chapter_one/chapt1img5age.png (PNG copy)>] [24]
 <Chapt1img7.png, id=99, 963.6pt x 779.16093pt>
 File: Chapt1img7.png Graphic file (type png)
 <use Chapt1img7.png>
-Package pdftex.def Info: Chapt1img7.png  used on input line 423.
+Package pdftex.def Info: Chapt1img7.png  used on input line 425.
 (pdftex.def)             Requested size: 207.0021pt x 167.37366pt.
  [25 <./Chapt1img7.png (PNG copy)>] [26]
-Underfull \hbox (badness 10000) in paragraph at lines 485--489
+Underfull \hbox (badness 10000) in paragraph at lines 487--491
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--505
+Underfull \hbox (badness 10000) in paragraph at lines 503--507
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 501--505
+Underfull \hbox (badness 10000) in paragraph at lines 503--507
 
  []
 
 [27] [28] [29] [30] [31]
-Overfull \hbox (43.21077pt too wide) detected at line 657
+Overfull \hbox (43.21077pt too wide) detected at line 659
 []\OT1/pxr/m/n/10 = [][[][] \OML/pxmi/m/it/10 F\OT1/pxr/m/n/10 (\OML/pxmi/m/it/10 !\OT1/pxr/m/n/10 )\OML/pxmi/m/it/10 e[]d! \OT1/pxr/m/n/10 + [][] \OML/pxmi/m/it/10 F\OT1/pxr/m/n/10 (\OMS/pxsy/m/n/10 ^^@\OML/pxmi/m/it/10 ![]\OT1/pxr/m/n/10 )\OML/pxmi/m/it/10 e[]\OT1/pxr/m/n/10 ]\OML/pxmi/m/it/10 d![] \OT1/pxr/m/n/10 = [][[][] \OML/pxmi/m/it/10 F\OT1/pxr/m/n/10 (\OML/pxmi/m/it/10 !\OT1/pxr/m/n/10 )\OML/pxmi/m/it/10 e[]d! \OT1/pxr/m/n/10 + [][][\OML/pxmi/m/it/10 F\OT1/pxr/m/n/10 (\OML/pxmi/m/it/10 ![]\OT1/pxr/m/n/10 )][](\OML/pxmi/m/it/10 e[]\OT1/pxr/m/n/10 )[]]\OML/pxmi/m/it/10 d![]
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 702--706
+Underfull \hbox (badness 10000) in paragraph at lines 704--708
 
  []
 
 <img//Chapter_one/chaptOneManoDestra.png, id=129, 344.28625pt x 164.615pt>
 File: img//Chapter_one/chaptOneManoDestra.png Graphic file (type png)
 <use img//Chapter_one/chaptOneManoDestra.png>
-Package pdftex.def Info: img//Chapter_one/chaptOneManoDestra.png  used on input line 713.
+Package pdftex.def Info: img//Chapter_one/chaptOneManoDestra.png  used on input line 715.
 (pdftex.def)             Requested size: 172.5pt x 82.47809pt.
 [33]
 <img//Chapter_one/chaptOneIsotropia.png, id=133, 481.8pt x 271.0125pt>
 File: img//Chapter_one/chaptOneIsotropia.png Graphic file (type png)
 <use img//Chapter_one/chaptOneIsotropia.png>
-Package pdftex.def Info: img//Chapter_one/chaptOneIsotropia.png  used on input line 725.
+Package pdftex.def Info: img//Chapter_one/chaptOneIsotropia.png  used on input line 727.
 (pdftex.def)             Requested size: 172.5pt x 97.03096pt.
  [34 <./img//Chapter_one/chaptOneManoDestra.png> <./img//Chapter_one/chaptOneIsotropia.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 734--738
+Underfull \hbox (badness 10000) in paragraph at lines 736--740
 
  []
 
@@ -511,25 +511,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 734--738
 <img//Chapter_one/chaptOneMatricione.png, id=142, 536.0025pt x 269.005pt>
 File: img//Chapter_one/chaptOneMatricione.png Graphic file (type png)
 <use img//Chapter_one/chaptOneMatricione.png>
-Package pdftex.def Info: img//Chapter_one/chaptOneMatricione.png  used on input line 815.
+Package pdftex.def Info: img//Chapter_one/chaptOneMatricione.png  used on input line 817.
 (pdftex.def)             Requested size: 172.5pt x 86.57181pt.
  [36 <./img//Chapter_one/chaptOneMatricione.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 842--845
+Underfull \hbox (badness 10000) in paragraph at lines 844--847
 
  []
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 862--865
+Underfull \hbox (badness 10000) in paragraph at lines 864--867
 
  []
 
 [38] [39]
-Underfull \hbox (badness 10000) in paragraph at lines 951--956
+Underfull \hbox (badness 10000) in paragraph at lines 953--958
 
  []
 
 [40] [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1059--1062
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1064
 
  []
 
@@ -537,20 +537,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1059--1062
 <img//Chapter_one/Chapt1img8.png, id=166, 1003.75pt x 378.41376pt>
 File: img//Chapter_one/Chapt1img8.png Graphic file (type png)
 <use img//Chapter_one/Chapt1img8.png>
-Package pdftex.def Info: img//Chapter_one/Chapt1img8.png  used on input line 1071.
+Package pdftex.def Info: img//Chapter_one/Chapt1img8.png  used on input line 1073.
 (pdftex.def)             Requested size: 172.5pt x 65.02815pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1103
+Underfull \hbox (badness 10000) in paragraph at lines 1100--1105
 
  []
 
 [43 <./img//Chapter_one/Chapt1img8.png>] [44]
-Overfull \hbox (48.59747pt too wide) detected at line 1164
+Overfull \hbox (48.59747pt too wide) detected at line 1166
 [][]
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1164--1167
+Underfull \hbox (badness 10000) in paragraph at lines 1166--1169
 
  []
 
@@ -558,20 +558,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 1164--1167
 <img/Chapter_one/Chapt1img9.png, id=184, 482.55281pt x 176.91093pt>
 File: img/Chapter_one/Chapt1img9.png Graphic file (type png)
 <use img/Chapter_one/Chapt1img9.png>
-Package pdftex.def Info: img/Chapter_one/Chapt1img9.png  used on input line 1255.
+Package pdftex.def Info: img/Chapter_one/Chapt1img9.png  used on input line 1257.
 (pdftex.def)             Requested size: 207.0021pt x 75.88934pt.
  [48 <./img/Chapter_one/Chapt1img9.png (PNG copy)>] [49]
-Underfull \hbox (badness 10000) in paragraph at lines 1306--1309
+Underfull \hbox (badness 10000) in paragraph at lines 1308--1311
 
  []
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 1336--1337
+Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
+Underfull \hbox (badness 10000) in paragraph at lines 1339--1340
 
  []
 
@@ -587,7 +587,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,14n,62p,869b,250s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxex.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxexa.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsya.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpcxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxb.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxmi.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pxfonts/rpxr.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on main.pdf (52 pages, 9969824 bytes).
+Output written on main.pdf (52 pages, 9969856 bytes).
 PDF statistics:
  268 PDF objects out of 1000 (max. 8388607)
  164 compressed objects within 2 object streams
